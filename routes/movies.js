@@ -58,3 +58,5 @@ router.route('/movies/:id').delete(function(req, res) {
 		res.json({message: 'Successfully deleted'});
 	});
 });
+
+module.exports = router;
